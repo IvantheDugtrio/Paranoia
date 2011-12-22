@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{05c262e4-ffa6-439e-a940-25cc9bab4b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{5f1aaa6b-5a83-4fd3-a9ee-77aba7e50cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{1b5fce21-48fe-40a9-a42b-547cf4988c7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gamemode\cl_init.lua">
+      <Filter>Client</Filter>
+    </None>
+    <None Include="gamemode\init.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\server\needs.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\server\base.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\server\data.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\server\skills.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\server\names.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\server\snet.lua">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="gamemode\shared\util.lua">
+      <Filter>Shared</Filter>
+    </None>
+    <None Include="outline.txt" />
+    <None Include="gamemode\client\hud.lua">
+      <Filter>Client</Filter>
+    </None>
+  </ItemGroup>
+</Project>

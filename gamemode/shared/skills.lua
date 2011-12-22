@@ -1,0 +1,21 @@
+-- ONLY TO BE INCLUDED FROM SERVER OR CLIENT SKILLS.LUA
+
+-- Skills Enum
+paraSkills.SHARPENEDCLAWS = 1;
+paraSkills.VENOM = 2;
+paraSkills.EXHAUST = 3;
+paraSkills.ENHANCEDREFLEXES = 4;
+paraSkills.BLOODTHIRST = 5;
+paraSkills.ENHANCEDSENSES = 6;
+paraSkills.HARDENEDCARAPACE = 7;
+paraSkills.REGENERATIVETISSUE = 8;
+paraSkills.REINFORCEDSCALES = 9;
+paraSkills.REINFORCEDSKELETON = 10;
+paraSkills.ENDURANCE = 11;
+paraSkills.ADRENALINEGLANDS = 12;
+paraSkills.SILENTBREATHING = 13;
+paraSkills.ADAPTIVECARAPACE = 14;
+
+
+-- fall damage
+-- jump height
